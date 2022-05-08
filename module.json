@@ -1,0 +1,12 @@
+{
+    "id": "auth-mastodon",
+    "name": "Mastodon Sign-In",
+    "description": "Integrating Mastodon Sign-In (OAuth 2.0).",
+    "keywords": [
+    ],
+    "version": "1.0.0",
+    "homepage": "https://github.com/greenmeteor/auth-mastodon",
+    "humhub": {
+        "minVersion": "1.6"
+    }
+}
