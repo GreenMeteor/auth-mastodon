@@ -4,7 +4,7 @@
     "description": "Integrating Mastodon Sign-In (OAuth 2.0).",
     "keywords": [
     ],
-    "version": "1.0.0-beta.1",
+    "version": "1.0.0-beta.2",
     "homepage": "https://github.com/greenmeteor/auth-mastodon",
     "humhub": {
         "minVersion": "1.6"
