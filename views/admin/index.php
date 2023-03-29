@@ -31,7 +31,6 @@ use yii\helpers\Html;
 
             <br/>
             <?= $form->field($model, 'redirectUri')->textInput(['readonly' => true]); ?>
-            <?= $form->field($model, 'serverUrl')->textInput(['readonly' => true]); ?>
             <br/>
 
             <div class="form-group">
