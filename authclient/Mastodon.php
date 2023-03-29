@@ -53,10 +53,10 @@ class Mastodon extends Oauth2
     {
         $config = ConfigureForm::getInstance();
 
-        $this->apiBaseUrl = $config->serverUrl . 'api/v1';
-        $this->authUrl = $this->apiBaseUrl . 'oauth/authorize';
-        $this->tokenUrl = $this->apiBaseUrl . 'oauth/token';
-        $this->revokeUrl = $this->apiBaseUrl . 'oauth/revoke';
+        $this->apiBaseUrl = $config->serverUrl . '/api/v1';
+        $this->authUrl = $config->serverUrl . '/oauth/authorize';
+        $this->tokenUrl = $config->serverUrl . '/oauth/token';
+        $this->revokeUrl = $config->serverUrl . '/oauth/revoke';
 
         parent::init();
     }
