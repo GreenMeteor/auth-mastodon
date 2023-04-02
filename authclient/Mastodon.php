@@ -69,6 +69,14 @@ class Mastodon extends Oauth2
     /**
      * @inheritdoc
      */
+     public $attributeNames = [
+         'id',
+         'email'
+    ];
+
+    /**
+     * @inheritdoc
+     */
     protected function initUserAttributes()
     {
         return $this->api('accounts/verify_credentials', 'GET');
