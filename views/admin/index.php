@@ -3,8 +3,8 @@
 /* @var $this \humhub\modules\ui\view\components\View */
 /* @var $model \gm\humhub\modules\\auth\mastodon\models\ConfigureForm */
 
-use yii\bootstrap\ActiveForm;
-use yii\helpers\Html;
+use humhub\modules\widgets\form\ActiveForm;
+use humhub\helpers\Html;
 
 ?>
 <div class="container-fluid">
